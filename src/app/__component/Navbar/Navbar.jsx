@@ -10,7 +10,7 @@ export default function Navbar() {
     { name: "مواقيت الصلاة", href: "/salaplayer" },
     { name: "اقرأ", href: "/aqra" },
     { name: "تفسير", href: "/tfceer" },
-    { name: "تواصل معنا", href: "https://portofolio-taupe-tau.vercel.app/" },
+    { name: "تواصل معنا", href: "https://princemohamed.net" },
   ];
   let turn = 0;
   return (
