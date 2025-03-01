@@ -38,7 +38,7 @@ export default function Banner() {
           >
             {text.split("").map((ele, index) => {
               return (
-                <motion.span variants={spanvariants} key={index}>
+                <motion.span variants={spanvariants} key={index} className={"md:text-white text-black"}>
                   {ele}
                 </motion.span>
               );
@@ -52,7 +52,7 @@ export default function Banner() {
             </strong>
           </motion.h1>
 
-          <p className="mt-4 max-w-lg sm:text-xl/relaxed text-white">
+          <p className="mt-4 max-w-lg sm:text-xl/relaxed md:text-white text-gray-800">
             مرحبًا بكم في موقع سلام ويب، ملاذكم الأمثل لمتابعة مواقيت الصلاة
             واستكشاف أعماق القرآن الكريم وتفسير آياته. نوفر لكم هنا كل ما
             تحتاجونه لرحلة روحانية مليئة بالسكينة والمعرفة.
